@@ -98,7 +98,7 @@ export default function JobDetailsPage() {
                 <Briefcase className="w-5 h-5 text-white" />
               </div>
               <div>
-                <h1 className="text-xl font-bold text-gray-900">RH Jobs</h1>
+                <h1 className="text-xl font-bold text-gray-900">Reis Office</h1>
                 <p className="text-xs text-gray-500">Portal de Vagas</p>
               </div>
             </div>

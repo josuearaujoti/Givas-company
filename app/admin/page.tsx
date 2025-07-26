@@ -231,7 +231,7 @@ export default function AdminDashboard() {
                   <Users className="w-5 h-5 text-white" />
                 </div>
                 <div>
-                  <h1 className="text-xl font-bold text-gray-900">RH Admin</h1>
+                  <h1 className="text-xl font-bold text-gray-900">Reis office</h1>
                   <p className="text-xs text-gray-500">Sistema de Gestão</p>
                 </div>
               </div>
