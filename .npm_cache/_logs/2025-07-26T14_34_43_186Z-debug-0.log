@@ -7,12 +7,7 @@
 6 silly config load:file:C:\Users\usrlabecon\AppData\Roaming\npm\etc\npmrc
 7 verbose title npm run dev
 8 verbose argv "run" "dev"
-9 verbose logfile logs-max:10 dir:C:\Users\usrlabecon\Downloads\Givas-Company-main\.npm_cache\_logs\2025-07-26T10_42_14_553Z-
-10 verbose logfile C:\Users\usrlabecon\Downloads\Givas-Company-main\.npm_cache\_logs\2025-07-26T10_42_14_553Z-debug-0.log
-11 silly logfile done cleaning log files
-12 verbose cwd C:\Users\usrlabecon\Downloads\Givas-Company-main
-13 verbose os Windows_NT 10.0.19045
-14 verbose node v22.13.0
-15 verbose npm  v10.9.2
-16 verbose exit 1
-17 verbose code 1
+9 verbose logfile logs-max:10 dir:C:\Users\usrlabecon\Downloads\Givas-Company-main\.npm_cache\_logs\2025-07-26T14_34_43_186Z-
+10 verbose logfile C:\Users\usrlabecon\Downloads\Givas-Company-main\.npm_cache\_logs\2025-07-26T14_34_43_186Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
