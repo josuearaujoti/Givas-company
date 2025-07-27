@@ -297,14 +297,14 @@ export default function HomePage() {
                         borderRadius: "4px",
                       }}
                       onMouseOver={(e) => {
-                        e.target.style.color = "#f8f9fa"
-                        e.target.style.textShadow = "0 0 5px rgba(255,255,255,0.5)"
-                        e.target.style.backgroundColor = "rgba(255,255,255,0.1)"
+                        (e.target as HTMLElement).style.color = "#f8f9fa";
+                        (e.target as HTMLElement).style.textShadow = "0 0 5px rgba(255,255,255,0.5)";
+                        (e.target as HTMLElement).style.backgroundColor = "rgba(255,255,255,0.1)";
                       }}
                       onMouseOut={(e) => {
-                        e.target.style.color = "white"
-                        e.target.style.textShadow = "none"
-                        e.target.style.backgroundColor = "transparent"
+                        (e.target as HTMLElement).style.color = "white";
+                        (e.target as HTMLElement).style.textShadow = "none";
+                        (e.target as HTMLElement).style.backgroundColor = "transparent";
                       }}
                     >
                       Início
@@ -322,14 +322,14 @@ export default function HomePage() {
                         borderRadius: "4px",
                       }}
                       onMouseOver={(e) => {
-                        e.target.style.color = "#f8f9fa"
-                        e.target.style.textShadow = "0 0 5px rgba(255,255,255,0.5)"
-                        e.target.style.backgroundColor = "rgba(255,255,255,0.1)"
+                        (e.target as HTMLElement).style.color = "#f8f9fa";
+                        (e.target as HTMLElement).style.textShadow = "0 0 5px rgba(255,255,255,0.5)";
+                        (e.target as HTMLElement).style.backgroundColor = "rgba(255,255,255,0.1)";
                       }}
                       onMouseOut={(e) => {
-                        e.target.style.color = "white"
-                        e.target.style.textShadow = "none"
-                        e.target.style.backgroundColor = "transparent"
+                        (e.target as HTMLElement).style.color = "white";
+                        (e.target as HTMLElement).style.textShadow = "none";
+                        (e.target as HTMLElement).style.backgroundColor = "transparent";
                       }}
                     >
                       Soluções
@@ -347,14 +347,14 @@ export default function HomePage() {
                         borderRadius: "4px",
                       }}
                       onMouseOver={(e) => {
-                        e.target.style.color = "#f8f9fa"
-                        e.target.style.textShadow = "0 0 5px rgba(255,255,255,0.5)"
-                        e.target.style.backgroundColor = "rgba(255,255,255,0.1)"
+                        (e.target as HTMLElement).style.color = "#f8f9fa";
+                        (e.target as HTMLElement).style.textShadow = "0 0 5px rgba(255,255,255,0.5)";
+                        (e.target as HTMLElement).style.backgroundColor = "rgba(255,255,255,0.1)";
                       }}
                       onMouseOut={(e) => {
-                        e.target.style.color = "white"
-                        e.target.style.textShadow = "none"
-                        e.target.style.backgroundColor = "transparent"
+                        (e.target as HTMLElement).style.color = "white";
+                        (e.target as HTMLElement).style.textShadow = "none";
+                        (e.target as HTMLElement).style.backgroundColor = "transparent"
                       }}
                     >
                       Sobre
@@ -372,14 +372,14 @@ export default function HomePage() {
                         borderRadius: "4px",
                       }}
                       onMouseOver={(e) => {
-                        e.target.style.color = "#f8f9fa"
-                        e.target.style.textShadow = "0 0 5px rgba(255,255,255,0.5)"
-                        e.target.style.backgroundColor = "rgba(255,255,255,0.1)"
+                        (e.target as HTMLElement).style.color = "#f8f9fa";
+                        (e.target as HTMLElement).style.textShadow = "0 0 5px rgba(255,255,255,0.5)";
+                        (e.target as HTMLElement).style.backgroundColor = "rgba(255,255,255,0.1)"
                       }}
                       onMouseOut={(e) => {
-                        e.target.style.color = "white"
-                        e.target.style.textShadow = "none"
-                        e.target.style.backgroundColor = "transparent"
+                        (e.target as HTMLElement).style.color = "white";
+                        (e.target as HTMLElement).style.textShadow = "none";
+                        (e.target as HTMLElement).style.backgroundColor = "transparent";
                       }}
                     >
                       Contato
@@ -399,14 +399,14 @@ export default function HomePage() {
                       transition: "all 0.3s ease",
                     }}
                     onMouseOver={(e) => {
-                      e.target.style.backgroundColor = "white"
-                      e.target.style.color = "#e47b38"
-                      e.target.style.transform = "scale(1.05)"
+                      (e.target as HTMLElement).style.backgroundColor = "white";
+                      (e.target as HTMLElement).style.color = "#e47b38";
+                      (e.target as HTMLElement).style.transform = "scale(1.05)"
                     }}
                     onMouseOut={(e) => {
-                      e.target.style.backgroundColor = "transparent"
-                      e.target.style.color = "white"
-                      e.target.style.transform = "scale(1)"
+                      (e.target as HTMLElement).style.backgroundColor = "transparent";
+                      (e.target as HTMLElement).style.color = "white";
+                      (e.target as HTMLElement).style.transform = "scale(1)"
                     }}
                   >
                     Entrar
